@@ -4,10 +4,25 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     >
-<TextView  
+
+	<TextView  
     android:layout_width="fill_parent" 
     android:layout_height="wrap_content" 
     android:text="@string/hello"
     android:id="@+id/text1"
     />
+    
+    <Button
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="Address Lookup"
+    android:id="@+id/button"
+    android:onClick="lookupClick" />
+    
+    <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/text2"
+    />
+    
 </LinearLayout>
