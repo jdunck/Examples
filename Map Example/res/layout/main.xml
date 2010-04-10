@@ -2,11 +2,30 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    >
-<TextView  
+    android:layout_height="fill_parent">
+    
+	<TextView  
     android:layout_width="fill_parent" 
     android:layout_height="wrap_content" 
-    android:text="@string/hello"
-    />
+    android:text="Hello MapView"/>
+    
+    <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+	<com.google.android.maps.MapView
+	android:id="@+id/mapview"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:clickable="true"
+	android:apiKey="07a9VH_Kgft9tLKpD9GMer4Z4eenVjBknjGDvsw"/>
+    
+    <LinearLayout
+    android:id="@+id/zoomview"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@id/mapview"
+    android:layout_centerHorizontal="true"/>
+    
+    </RelativeLayout>
 </LinearLayout>

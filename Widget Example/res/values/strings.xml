@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, MainActivity!</string>
+	<string name="app_name">GTUG Widget</string>
+	<string-array name="will_rogers_quotes">
+		<item>An ignorant person is one who doesn't know what you have just
+			found out.
+		</item>
+		<item>An onion can make people cry, but there has never been a
+			vegetable invented to make them laugh.
+		</item>
+		<item>Ancient Rome declined because it had a Senate; now what's going
+			to happen to us with both a Senate and a House?
+		</item>
+		<item>Be thankful we're not getting all the government we're paying
+			for.
+		</item>
+		<item>Diplomacy is the art of saying 'Nice doggie' until you can find
+			a rock.
+		</item>
+		<item>Don't gamble; take all your savings and buy some good stock and
+			hold it till it goes up, then sell it. If it don't go up, don't buy
+			it.
+		</item>
+		<item>Even if you're on the right track, you'll get run over if you
+			just sit there.
+		</item>
+		<item>I belong to no organized party. I am a Democrat.
+		</item>
+		<item>I never expected to see the day when girls would get sunburned
+			in the places they do today.
+		</item>
+		<item>I was not a child prodigy, because a child prodigy is a child
+			who knows as much when it is a child as it does when it grows up.
+		</item>
+		<item>I'm not a real movie star. I've still got the same wife I
+			started out with twenty-eight years ago.
+</item>
+		<item>Live in such a way that you would not be ashamed to sell your
+			parrot to the town gossip.
+</item>
+		<item>Nothing you can't spell will ever work.
+</item>
+		<item>On account of being a democracy and run by the people, we are
+			the only nation in the world that has to keep a government four
+			years, no matter what it does.
+</item>
+		<item>Our constitution protects aliens, drunks and U.S. Senators.
+		</item>
+		<item>Politics is applesauce.
+</item>
+		<item>Take the diplomacy out of war and the thing would fall flat in a
+			week.
+</item>
+		<item>The best doctor in the world is the veterinarian. He can't ask
+			his patients what is the matter-he's got to just know.
+</item>
+		<item>The movies are the only business where you can go out front and
+			applaud yourself.
+</item>
+		<item>The only time people dislike gossip is when you gossip about
+			them.
+</item>
+		<item>There ought to be one day-- just one-- when there is open season
+			on senators.
+</item>
+		<item>There's no trick to being a humorist when you have the whole
+			government working for you.
+</item>
+		<item>This country has come to feel the same when Congress is in
+			session as when the baby gets hold of a hammer.
+</item>
+		<item>We are all here for a spell; get all the good laughs you can.
+		</item>
+		<item>We can't all be heroes because somebody has to sit on the curb
+			and clap as they go by.
+</item>
+		<item>We don't know what we want, but we are ready to bite somebody to
+			get it.
+</item>
+		<item>Rumor travels faster, but it don't stay put as long as truth.
+		</item>
+		<item>There is only one thing that can kill the Movies, and that is
+			education.
+</item>
+		<item>The more you read and observe about this Politics thing, you got
+			to admit that each party is worse than the other. The one that's out
+			always looks the best.
+</item>
+		<item>The income tax has made more liars out of the American people
+			than golf has.</item>
+	</string-array>
+</resources>
