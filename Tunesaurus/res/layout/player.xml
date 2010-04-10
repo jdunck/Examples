@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:gravity="center"
+  android:padding="10dip">
+  
+<TextView 
+android:id="@+id/title" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:textSize="20sp">
+</TextView>
+
+<TextView 
+android:id="@+id/artist" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:textSize="20sp">
+</TextView>
+
+<ImageButton 
+android:id="@+id/playpause" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</ImageButton>
+
+</LinearLayout>

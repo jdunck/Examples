@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+<TextView android:text="Username:" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" />
+
+<EditText
+android:id="@+id/username" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content" />
+
+<TextView android:text="Password:" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" />
+
+<EditText
+android:id="@+id/password" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content"
+android:password="true" />
+
+<TextView android:text="Status:" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" />
+
+<EditText
+android:id="@+id/status" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content" />
+
+
+<Button android:text="update status" 
+android:id="@+id/send" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:onClick="clickHandler" />
+
+</LinearLayout>
