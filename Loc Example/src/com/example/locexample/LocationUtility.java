@@ -27,10 +27,15 @@ public class LocationUtility
         	
         	// get the location from the provider
         	temp = manager.getLastKnownLocation(provider);
-        	
-        	// if it's more accurate than what we've got, replace
+
+        	// if it's more accurate or
+        	//		significantly more recent than what we've got,
+        	// replace
         	if (temp != null) {
-        		if (location == null || location.getAccuracy() < temp.getAccuracy()) {
+        		if (location == null || (
+        				location.getAccuracy() < temp.getAccuracy() ||
+        				temp.getTime() - location.getTime() > (1000 * 60 * 10)  //10 minutes
+        				)) {
         			location = temp;
         			enabled = manager.isProviderEnabled(provider);
         		}
